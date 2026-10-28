@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SecuriTech Sénégal – Vidéosurveillance, interphonie et réseaux</title>
+<meta name="description" content="Installation de caméras de surveillance, vidéophones, interphones et câblage réseau à Dakar et partout au Sénégal. Devis gratuit sur WhatsApp.">
+<meta property="og:title" content="SecuriTech Sénégal – Caméras, interphones et réseaux">
+<meta property="og:description" content="Un technicien réseau qualifié conseille, installe et configure. Devis gratuit sur WhatsApp.">
+<meta property="og:image" content="https://samasecure801-cpu.github.io/S-curit-tech/Logo.png">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"SecuriTech Sénégal","description":"Installation de caméras de surveillance, vidéophones, interphones, câblage réseau et WiFi.","telephone":"+221763259221","areaServed":["Dakar","Thiès","Mbour","Sénégal"],"url":"https://samasecure801-cpu.github.io/S-curit-tech/","image":"https://samasecure801-cpu.github.io/S-curit-tech/Logo.png"}
+</script>
+<style>
+:root{
+  --ink:#10222f; --ink-2:#2c4252; --paper:#f5f7f8; --white:#fff;
+  --line:#d8e0e5; --accent:#f2b705; --accent-ink:#2a2000; --wa:#1a8f4c;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px}
+img{max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+header{position:sticky;top:0;z-index:20;background:var(--ink);color:var(--white)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700}
+.brand img{width:36px;height:36px;border-radius:6px;object-fit:cover}
+.brand small{display:block;font-weight:400;font-size:12px;opacity:.75}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-size:15px}
+nav a{text-decoration:none;opacity:.9}
+nav a:hover{opacity:1;text-decoration:underline}
+@media(max-width:720px){nav{display:none}}
+
+.hero{background:var(--ink);color:var(--white);padding:56px 0 64px;border-bottom:6px solid var(--accent)}
+.hero .wrap{display:grid;gap:32px;align-items:center}
+@media(min-width:820px){.hero .wrap{grid-template-columns:1.3fr .7fr}}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 16px;max-width:20ch}
+.hero p{font-size:19px;max-width:46ch;margin:0 0 28px;color:#d6e0e6}
+.hero img{border-radius:12px;max-height:280px;margin:0 auto;display:block}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 22px;border-radius:8px;font-weight:700;text-decoration:none;border:2px solid transparent}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:#15733d}
+.btn-ghost{border-color:#7f95a3;color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+
+section{padding:56px 0}
+section.alt{background:var(--white);border-block:1px solid var(--line)}
+h2{font-size:clamp(24px,3.5vw,32px);margin:0 0 8px;line-height:1.2}
+.lead{color:var(--ink-2);margin:0 0 32px;max-width:60ch}
+
+.services{display:grid;gap:0;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));border-top:1px solid var(--line)}
+.service{padding:22px 4px 22px 0;border-bottom:1px solid var(--line);display:flex;gap:14px}
+.service .ico{font-size:28px;line-height:1.2}
+.service h3{margin:0 0 4px;font-size:18px}
+.service p{margin:0;color:var(--ink-2);font-size:16px}
+
+.price{background:var(--white);border:2px solid var(--ink);border-radius:12px;padding:28px;max-width:440px}
+.price h3{margin:0 0 4px}
+.price .amount{font-size:36px;font-weight:800;margin:0 0 12px}
+.price ul,.plain{padding-left:20px;margin:0 0 20px}
+.pricing{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start}
+.price.soft{border:1px solid var(--line);background:transparent}
+
+.why{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.why h3{margin:0 0 6px;font-size:18px}
+.why p{margin:0;color:var(--ink-2)}
+
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps li{counter-increment:s;padding-left:46px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:800;display:grid;place-items:center}
+.steps strong{display:block}
+.steps span{color:var(--ink-2);font-size:16px}
+
+.zones li{margin-bottom:8px}
+.note{color:var(--ink-2);font-size:16px}
+
+.contact{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.contact h3{margin:0 0 4px;font-size:17px}
+.contact p{margin:0}
+
+footer{background:var(--ink);color:#b8c6cf;padding:28px 0;font-size:15px;text-align:center}
+
+.float-wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;background:var(--wa);color:#fff;font-weight:700;text-decoration:none;padding:14px 18px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#accueil">
+      <img src="Logo.png" alt="Logo SecuriTech">
+      <span>SecuriTech Sénégal<small>Votre sécurité, notre priorité</small></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#services">Services</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#methode">Comment ça se passe</a>
+      <a href="#pourquoi">Pourquoi nous</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="accueil">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Caméras, interphones et réseaux : installés proprement à Dakar et partout au Sénégal</h1>
+        <p>Un technicien réseau qualifié vous conseille, installe et configure. Réponse rapide sur WhatsApp, devis gratuit.</p>
+        <div class="btns">
+          <a class="btn btn-wa" href="https://wa.me/221763259221?text=Bonjour%20SecuriTech%2C%20je%20souhaite%20un%20devis." rel="noopener">Devis gratuit sur WhatsApp</a>
+          <a class="btn btn-ghost" href="#services">Voir nos services</a>
+        </div>
+      </div>
+      <img src="Logo.png" alt="SecuriTech – Votre sécurité, notre priorité">
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Nos services</h2>
+      <p class="lead">Tout pour sécuriser et connecter vos locaux.</p>
+      <div class="services">
+        <div class="service"><span class="ico" aria-hidden="true">📹</span><div><h3>Caméras IP et analogiques</h3><p>Choix du matériel, pose et configuration d’un système de vidéosurveillance adapté à votre budget.</p></div></div>
+        <div class="service"><span class="ico" aria-hidden="true">📶</span><div><h3>Caméras sans fil (WiFi)</h3><p>Installation simple et rapide, avec consultation à distance depuis votre téléphone.</p></div></div>
+        <div class="service"><span class="ico" aria-hidden="true">🔔</span><div><h3>Vidéophones et interphones</h3><p>Voyez et parlez à vos visiteurs avant d’ouvrir : pour villas, immeubles et bureaux.</p></div></div>
+        <div class="service"><span class="ico" aria-hidden="true">🔌</span><div><h3>Câblage réseau</h3><p>Passage de câbles propre et durable pour vos caméras, bureaux et commerces.</p></div></div>
+        <div class="service"><span class="ico" aria-hidden="true">📡</span><div><h3>Points d’accès WiFi</h3><p>Bornes WiFi configurées pour une couverture stable dans toute votre maison ou entreprise.</p></div></div>
+        <div class="service"><span class="ico" aria-hidden="true">🛠️</span><div><h3>Maintenance et dépannage</h3><p>Vérification, réglage et réparation de vos installations existantes.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tarifs" class="alt">
+    <div class="wrap">
+      <h2>Nos tarifs</h2>
+      <p class="lead">Prix indicatifs en FCFA. Le devis est gratuit et adapté à votre besoin.</p>
+      <div class="pricing">
+        <div class="price">
+          <h3>Kit 8 caméras Fosvision</h3>
+          <p class="amount">190 000 FCFA</p>
+          <ul>
+            <li>Kit de 8 caméras : 140 000 FCFA</li>
+            <li>Installation et configuration : 50 000 FCFA</li>
+          </ul>
+          <a class="btn btn-wa" href="https://wa.me/221763259221?text=Bonjour%20SecuriTech%2C%20je%20veux%20le%20kit%208%20cam%C3%A9ras." rel="noopener">Commander ce kit</a>
+        </div>
+        <div class="price soft">
+          <h3>Autres installations</h3>
+          <p class="amount">Sur devis</p>
+          <ul>
+            <li>Caméras WiFi</li>
+            <li>Vidéophones et interphones</li>
+            <li>Câblage réseau et points d’accès</li>
+          </ul>
+          <a class="btn btn-ghost" style="color:var(--ink);border-color:var(--ink)" href="https://wa.me/221763259221?text=Bonjour%20SecuriTech%2C%20je%20souhaite%20un%20devis." rel="noopener">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="methode">
+    <div class="wrap">
+      <h2>Comment ça se passe</h2>
+      <p class="lead">Quatre étapes, de votre message à la mise en service.</p>
+      <ol class="steps">
+        <li><strong>Vous nous écrivez</strong><span>Un message WhatsApp avec votre besoin et votre quartier.</span></li>
+        <li><strong>Devis détaillé</strong><span>Matériel et main-d’œuvre séparés, sans surprise.</span></li>
+        <li><strong>Installation</strong><span>Pose, câblage et configuration réseau par le technicien.</span></li>
+        <li><strong>Mise en service</strong><span>Test complet et consultation réglée sur votre téléphone.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="pourquoi" class="alt">
+    <div class="wrap">
+      <h2>Pourquoi choisir SecuriTech ?</h2>
+      <p class="lead">Un service sérieux, du début à la fin.</p>
+      <div class="why">
+        <div><h3>✅ Devis détaillé</h3><p>Matériel et main-d’œuvre séparés, sans mauvaise surprise.</p></div>
+        <div><h3>✅ Réseau bien configuré</h3><p>Consultation à distance sur votre téléphone, testée avant notre départ.</p></div>
+        <div><h3>✅ Conseil honnête</h3><p>Nous vous proposons le nombre de caméras dont vous avez réellement besoin.</p></div>
+        <!--
+        À DÉCOMMENTER quand vous avez confirmé vos conditions :
+        <div><h3>✅ Garantie</h3><p>Garantie de ... mois sur l’installation. Garantie constructeur sur le matériel.</p></div>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!--
+  SECTION RÉALISATIONS : décommentez après avoir ajouté vos photos (dans le même dossier que index.html).
+  <section id="realisations">
+    <div class="wrap">
+      <h2>Nos réalisations</h2>
+      <p class="lead">Quelques installations récentes.</p>
+      <div style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+        <img src="realisation1.jpg" alt="Installation de caméras – villa à Dakar" loading="lazy">
+        <img src="realisation2.jpg" alt="Câblage réseau – bureau" loading="lazy">
+        <img src="realisation3.jpg" alt="Interphone – immeuble" loading="lazy">
+      </div>
+    </div>
+  </section>
+  -->
+
+  <section id="boutique">
+    <div class="wrap">
+      <h2>Notre boutique en ligne</h2>
+      <p class="lead">Découvrez nos équipements de sécurité et commandez directement depuis notre boutique.</p>
+      <a class="btn btn-wa" href="https://mvbdhvby.mychariow.co" rel="noopener">Visiter la boutique</a>
+    </div>
+  </section>
+
+  <section id="zones" class="alt">
+    <div class="wrap">
+      <h2>Zones d’intervention</h2>
+      <ul class="plain zones">
+        <li><strong>Dakar et banlieue</strong> : Plateau, Almadies, Pikine, Guédiawaye, Rufisque, Keur Massar. Déplacement gratuit pour tout devis.</li>
+        <li><strong>Thiès et Mbour</strong> : Saly, Somone, Joal. Sur devis, frais selon la distance.</li>
+        <li><strong>Autres régions</strong> : Saint-Louis, Kaolack, Touba, Ziguinchor, etc. Sur devis, frais de déplacement selon la distance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contactez-nous</h2>
+      <p class="lead">Réponse rapide pour tout devis ou renseignement.</p>
+      <div class="contact">
+        <div><h3>📞 Téléphone</h3><p><a href="tel:+221763259221">+221 76 325 92 21</a></p></div>
+        <div><h3>💬 WhatsApp</h3><p><a href="https://wa.me/221763259221" rel="noopener">Écrire sur WhatsApp</a></p></div>
+        <div><h3>📍 Zone</h3><p>Dakar, Thiès, Mbour et autres régions sur devis.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 SecuriTech Sénégal – Votre sécurité, notre priorité.</div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/221763259221?text=Bonjour%20SecuriTech%2C%20je%20souhaite%20un%20devis." rel="noopener" aria-label="Écrire sur WhatsApp">💬 WhatsApp</a>
+
+</body>
+</html>
